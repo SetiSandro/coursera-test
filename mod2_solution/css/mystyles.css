@@ -1,0 +1,65 @@
+@font-face { font-family: 'HennyPenny'; src: url('../font/HennyPenny-Regular.otf') format('opentype')}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 10px;
+    font-family: HennyPenny;
+}
+h1 {
+    text-align: center;
+    font-size: 175%;
+}
+section {
+    background-color: lightgray;
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    float: left;
+}
+.row {
+    margin: 10px;
+}
+.title {
+    border: 1px solid black;
+    position: absolute;
+    text-align: center;
+    width: 120px;
+    margin: 0px;
+    top: -1px;
+    right: -1px;
+    font-size: 125%; 
+}
+.content {
+    margin-top: 30px;
+}
+.green {
+    background-color: darkgreen;
+    color: white;
+}
+.red {
+    background-color: darkred;
+    color: white;
+}
+.yellow {
+    background-color: darkkhaki;
+}
+@media (min-width: 992px) {
+    section {
+        width: calc(33.33% - 20px);
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    section {
+        width: calc(50% - 20px);
+    }
+    .last {
+        width: calc(100% - 20px);
+    }
+}
+@media (max-width: 767px){
+    section {
+        width: calc(100% - 20px);
+    }
+}
