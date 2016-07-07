@@ -1,0 +1,21 @@
+.bg-color {
+    background-color: aqua;
+}
+
+.navbar-default {
+    background-color: lightgrey;
+}
+
+.bg-grey {
+    background-color: lightgray;
+}
+
+.padding-left-right {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
