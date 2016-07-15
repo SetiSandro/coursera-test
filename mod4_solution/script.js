@@ -61,7 +61,7 @@ WARNING!!! WARNING!!!
 //     // helloSpeaker.xxxx
 //   }
 // }
-(function(window) { // STEP 1
+(function() { // STEP 1
     
     var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
     var output = []; // for HTML output
@@ -78,13 +78,13 @@ WARNING!!! WARNING!!!
     var namesText = "";
     var outputText = "";
     for (var name in names) {
-        namesText += names[name] + "<br>";
+        namesText += names[name] + "<br />";
     }
     for (var element in output) {
-        outputText += output[element] + "<br>"; 
+        outputText += output[element] + "<br />"; 
     }
     document.getElementById('names-array').innerHTML = namesText;
     document.getElementById('output-array').innerHTML = outputText;
     // end of HTML output 
     
-})(window); // STEP 1
+})(); // STEP 1
