@@ -23,6 +23,7 @@
     var speakWord = "Hello";
     helloSpeaker.speak = function (name) { // STEP 4
         console.log(speakWord + " " + name);
+        return (speakWord + " " + name); // for HTML output
     }
     window.helloSpeaker = helloSpeaker; // STEP 5
 })(window); // STEP 2

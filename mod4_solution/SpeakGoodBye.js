@@ -29,6 +29,7 @@
     var speakWord = "Good Bye";
     byeSpeaker.speak = function(name) { // STEP 8
         console.log(speakWord + " " + name);
+        return (speakWord + " " + name); // for HTML output. 
     }
     window.byeSpeaker = byeSpeaker; // STEP 9
 })(window); // STEP 6

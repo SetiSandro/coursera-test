@@ -64,12 +64,27 @@ WARNING!!! WARNING!!!
 (function(window) { // STEP 1
     
     var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+    var output = []; // for HTML output
     for (var name in names) { // STEP 10
         if (names[name].charAt(0).toLowerCase() == 'j') { // STEP 11 & 12
-            byeSpeaker.speak(names[name]);
+            output.push(byeSpeaker.speak(names[name])); // output.push() only for HTML output
+            
         } else {
-            helloSpeaker.speak(names[name]);
+            output.push(helloSpeaker.speak(names[name]));
         }
     }
-
+    
+    // for HTML output
+    var namesText = "";
+    var outputText = "";
+    for (var name in names) {
+        namesText += names[name] + "<br>";
+    }
+    for (var element in output) {
+        outputText += output[element] + "<br>"; 
+    }
+    document.getElementById('names-array').innerHTML = namesText;
+    document.getElementById('output-array').innerHTML = outputText;
+    // end of HTML output 
+    
 })(window); // STEP 1
