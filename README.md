@@ -24,8 +24,8 @@ This Module was about:
 - Introduction to Twitter Bootstrap
 
 Assignment: 
-  Instructions: http://bit.ly/1SvqVyl
-  Solution: https://setisandro.github.io/coursera-test/mod2_solution/
+- Instructions: http://bit.ly/1SvqVyl
+- Solution: https://setisandro.github.io/coursera-test/mod2_solution/
 ### Module 3: Coding a Static Restaurant Site
 This Module was about: 
 - Visit with the Client & Setup Overview
@@ -34,8 +34,8 @@ This Module was about:
 - Coding the Restaurant Menu Pages
 
 Assignment: 
-  Instructions: http://bit.ly/21Ss4Cy
-  Solution: https://setisandro.github.io/coursera-test/mod3_solution/
+- Instructions: http://bit.ly/21Ss4Cy
+- Solution: https://setisandro.github.io/coursera-test/mod3_solution/
 ### Module 4: Introduction to Javascript
 This Module was about:
 - Javascript Basics
@@ -44,8 +44,8 @@ This Module was about:
 - Arrays, Closures, and Namespaces
 
 Assignment: 
-  Instructions: http://bit.ly/21StgWz
-  Solution: https://setisandro.github.io/coursera-test/mod4_solution/
+- Instructions: http://bit.ly/21StgWz
+- Solution: https://setisandro.github.io/coursera-test/mod4_solution/
 ### Module 5: Using Javascript to Build Web Applications
 This Module was about: 
 - Document Object Model (DOM) Manipulation
@@ -53,5 +53,5 @@ This Module was about:
 - Using Ajax to Connect Restaurant Site with Real Data
 
 Assignment: 
-  Instructions: http://bit.ly/1UWgPJ1
-  Solution: https://setisandro.github.io/coursera-test/mod5_solution/
+- Instructions: http://bit.ly/1UWgPJ1
+- Solution: https://setisandro.github.io/coursera-test/mod5_solution/
