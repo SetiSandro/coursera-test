@@ -15,6 +15,7 @@ This Module was about:
 - Essential HTML5 Tags
 
 Assignment was a quiz containing 23 questions at Coursera.
+
 ### Module 2: Introduction to CSS3
 This Module was about: 
 - CSS Basics
@@ -26,6 +27,7 @@ This Module was about:
 Assignment: 
 - Instructions: http://bit.ly/1SvqVyl
 - Solution: https://setisandro.github.io/coursera-test/mod2_solution/
+
 ### Module 3: Coding a Static Restaurant Site
 This Module was about: 
 - Visit with the Client & Setup Overview
@@ -36,6 +38,7 @@ This Module was about:
 Assignment: 
 - Instructions: http://bit.ly/21Ss4Cy
 - Solution: https://setisandro.github.io/coursera-test/mod3_solution/
+
 ### Module 4: Introduction to Javascript
 This Module was about:
 - Javascript Basics
@@ -46,6 +49,7 @@ This Module was about:
 Assignment: 
 - Instructions: http://bit.ly/21StgWz
 - Solution: https://setisandro.github.io/coursera-test/mod4_solution/
+
 ### Module 5: Using Javascript to Build Web Applications
 This Module was about: 
 - Document Object Model (DOM) Manipulation
